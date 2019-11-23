@@ -1,0 +1,9 @@
+scoreboard objectives add EatBeetSoup minecraft.used:minecraft.beetroot_soup
+scoreboard objectives add EatMushStew minecraft.used:minecraft.mushroom_stew
+scoreboard objectives add EatRabbStew minecraft.used:minecraft.rabbit_stew
+scoreboard objectives add EatGoldApple minecraft.used:minecraft.golden_apple
+scoreboard objectives add EatRottFlesh minecraft.used:minecraft.rotten_flesh
+scoreboard objectives add EatPuffFish minecraft.used:minecraft.pufferfish
+scoreboard objectives add EatTropFish minecraft.used:minecraft.tropical_fish
+scoreboard objectives add EatCookie minecraft.used:minecraft.cookie
+scoreboard objectives add EatMelon minecraft.used:minecraft.melon_slice

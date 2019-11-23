@@ -1,10 +1,5 @@
-scoreboard objectives add EatBeetSoup minecraft.used:minecraft.beetroot_soup
-scoreboard objectives add EatMushStew minecraft.used:minecraft.mushroom_stew
-scoreboard objectives add EatRabbStew minecraft.used:minecraft.rabbit_stew
-scoreboard objectives add EatGoldApple minecraft.used:minecraft.golden_apple
-scoreboard objectives add EatRottFlesh minecraft.used:minecraft.rotten_flesh
-scoreboard objectives add EatPuffFish minecraft.used:minecraft.pufferfish
-scoreboard objectives add EatTropFish minecraft.used:minecraft.tropical_fish
+execute as @p[tag=!fe_book] run function fe:get_book
+tag @p[tag=!fe_book] add fe_book
 
 effect give @p[scores={EatRabbStew=1}] minecraft:night_vision 20 0
 effect give @p[scores={EatRabbStew=1}] minecraft:jump_boost 10 0
@@ -28,3 +23,9 @@ scoreboard players reset @a[scores={EatPuffFish=1}] EatPuffFish
 
 effect give @a[scores={EatTropFish=1}] minecraft:water_breathing 120
 scoreboard players reset @a[scores={EatTropFish=1}] EatTropFish
+
+effect give @p[scores={EatCookie=1}] minecraft:luck 25 0
+scoreboard players reset @p[scores={EatCookie=1}] EatCookie
+
+effect give @p[scores={EatMelon=1}] minecraft:haste 10 1
+scoreboard players reset @p[scores={EatMelon=1}] EatMelon
